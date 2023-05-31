@@ -1,0 +1,42 @@
+object frmDup: TfrmDup
+  Left = 430
+  Height = 274
+  Top = 222
+  Width = 245
+  BorderStyle = bsDialog
+  Caption = 'Duplicate Fixer'
+  ClientHeight = 274
+  ClientWidth = 245
+  OnCreate = FormCreate
+  Position = poMainFormCenter
+  LCLVersion = '1.5'
+  object Label1: TLabel
+    Left = 0
+    Height = 28
+    Top = 0
+    Width = 245
+    Align = alTop
+    Caption = 'Use this tool to fix files that have duplicate extensions (e.g image1.jpg.jpg).'
+    ParentColor = False
+    WordWrap = True
+  end
+  object textDir: TDirectoryEdit
+    Left = 8
+    Height = 20
+    Top = 64
+    Width = 208
+    ShowHidden = False
+    ButtonWidth = 23
+    NumGlyphs = 1
+    MaxLength = 0
+    TabOrder = 0
+  end
+  object listFiles: TListBox
+    Left = 8
+    Height = 136
+    Top = 96
+    Width = 228
+    ItemHeight = 0
+    TabOrder = 1
+  end
+end
