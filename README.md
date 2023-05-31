@@ -1,6 +1,6 @@
 Description: Batch File Extension Renamer is a simple, portable application for renaming extensions of multiple files. This is a mirror of the original SourceForge repository at https://sourceforge.net/projects/batch-file-extension-renamer/, made by https://github.com/hippy2094.
 
-It works on Windows 2000 onwards, on Linux and on Mac OS X. There are 32 and 64-bit versions available. The program also contains an extra tool called "Duplicate Fixer" that can remove duplicate extensions from files (picture.png.png).
+It works on Windows 2000 onwards, on Linux and on Mac OS X. There are 32- and 64-bit versions available. The program also contains an extra tool called "Duplicate Fixer" that can remove duplicate extensions from files (picture.png.png).
 
 -
 
